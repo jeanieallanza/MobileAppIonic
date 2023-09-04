@@ -64,7 +64,9 @@ To learn more about starting Ionic apps, see the [Starting Guide](https://ionicf
 
 * Run the App
 
-        ionic serve or npm run dev
+        ionic serve
+or 
+        npm run dev
 
 
 
