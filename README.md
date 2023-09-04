@@ -10,4 +10,11 @@ Ionic is an open source UI toolkit for building performant, high-quality mobile 
 
 * To get started with Ionic Framework, the only requirement is a [Node & npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-* code editor is also required[Visual Studio Code][https://code.visualstudio.com/download].
+* code editor is also required[Visual Studio Code](https://code.visualstudio.com/download).
+
+
+## Install the Ionic CLI
+
+Install the Ionic CLI with npm:
+
+npm install -g @ionic/cli
