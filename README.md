@@ -59,11 +59,12 @@ To learn more about starting Ionic apps, see the [Starting Guide](https://ionicf
 >Note. You can choose any platform.
 
 * Open your App in Code editor.
-    - code .
+
+        - code .
 
 * Run the App
 
-    - ionic start
+        - ionic start
 
 >Note. if the (ionis start) doesn't work your project in VS Code, try to run using this command: 
 
