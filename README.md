@@ -29,3 +29,6 @@ Install the Ionic CLI with npm:
 # Start an App​
 
     ionic start
+
+
+To learn more about starting Ionic apps, see the [Starting Guide](https://ionicframework.com/docs/developing/starting).
