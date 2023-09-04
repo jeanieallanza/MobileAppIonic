@@ -33,40 +33,39 @@ To learn more about starting Ionic apps, see the [Starting Guide](https://ionicf
 
 ### Here's the Guide on how to start in Ionic + Vue:
 
-1. Start an App
+* Start an App
 
-    ionic start myApp
+        ionic start myApp
 
-2. Pick a framework!
+* Pick a framework!
 
-    Framework: Vue
+        Framework: Vue
 
-3. Let's pick the perfect starter template!:
+* Let's pick the perfect starter template!:
 
-    Starter template: blank
+        Starter template: blank
 
-> > > PS. You can choose any template you want to start the project.
+>Note. You can choose any template you want to start the project.
 
-4. Your Ionic app is ready! Follow these next steps:
+* Your Ionic app is ready! Follow these next steps:
 
   - Go to your new project: cd .\myApp
   - Run ionic serve within the app directory to see your app in the browser.
   - Run ionic capacitor add to add a native iOS or Android project using Capacitor.
     
-        - ionic capacitor add
-        - What platform would you like to add? 
-         - ios
+        ionic capacitor add
+        What platform would you like to add? ios
 
->>> Ps. You can choose any platform.
+>Note. You can choose any platform.
 
-5. Open your App in Code editor.
+* Open your App in Code editor.
     - code .
 
-6. Run the App
+* Run the App
 
     - ionic start
 
->>> PS. if the (ionis start) doesn't work your project in VS Code, try to run using this command: 
+>Note. if the (ionis start) doesn't work your project in VS Code, try to run using this command: 
 
     - npm run dev
 
