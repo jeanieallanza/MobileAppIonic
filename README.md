@@ -8,4 +8,5 @@ Ionic is an open source UI toolkit for building performant, high-quality mobile 
 
 ## Environment Setup
 
-[The only requirement is a]( https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+To get started with Ionic Framework, the only requirement is a [Node & npm] environment.
+a code editor is also required [Visual Studio Code].
