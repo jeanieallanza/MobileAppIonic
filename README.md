@@ -65,10 +65,10 @@ To learn more about starting Ionic apps, see the [Starting Guide](https://ionicf
 * Run the App
 
         ionic serve
-or 
+
+>Note. You can also run this command in your Terminal:
+
         npm run dev
-
-
 
 
 
