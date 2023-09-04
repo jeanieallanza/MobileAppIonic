@@ -32,3 +32,9 @@ Install the Ionic CLI with npm:
 
 
 To learn more about starting Ionic apps, see the [Starting Guide](https://ionicframework.com/docs/developing/starting).
+
+
+# Run the App​
+
+    $ cd myApp
+    $ ionic serve
