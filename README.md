@@ -23,7 +23,7 @@ Ionic is an open source UI toolkit for building performant, high-quality mobile 
 
 Install the Ionic CLI with npm:
  
-    ```
+    
       npm install -g @ionic/cli
 
-    ```
+    
