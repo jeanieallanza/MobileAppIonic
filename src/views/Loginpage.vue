@@ -15,20 +15,22 @@
              <h3>Bonjour!</h3>
              <p>Welcome to all new FastFood mobile app. kindly login your account. Thank you!</p>
  
-             <div class="login">
-                 <ion-input type="email" label="Email Address" label-placement="floating" fill="outline"></ion-input>
+             <form @submit.prevent="onloggedIn">
+                <div class="login">
+                 <ion-input type="email" v-model="email" label="Email Address" label-placement="floating" fill="outline"></ion-input>
              </div>
              
              <div class="login">
-                 <ion-input type="password" label="Password" label-placement="floating" fill="outline"></ion-input>
+                 <ion-input type="password" v-model="password" label="Password" label-placement="floating" fill="outline"></ion-input>
                  <ion-text id="forgot">Forgot?</ion-text>
              </div>
  
      
              <div class="login">
-                 <ion-button @click="() => router.push('/folder/Homepage')" expand="block" shape="round">Login</ion-button>
+                 <ion-button type="submit" expand="block" shape="round">Login</ion-button>
                  <ion-text id="guest">Login as Guest</ion-text>
              </div>
+             </form>
          </div>
  
          <ion-footer id="login">
@@ -38,7 +40,9 @@
     </ion-page>
  </template>
  
- <script lang="ts">
+ <script>
+ import axios from 'axios'
+
  import {
      IonHeader,
      IonToolbar,
@@ -54,7 +58,7 @@
      IonFooter,
      IonButton,
  } from '@ionic/vue'
- import { useRouter } from 'vue-router';
+ 
  
  export default{
      components:{
@@ -72,10 +76,24 @@
          IonFooter,
          IonButton,
      },
-     setup() {
-       const router = useRouter();
-       return { router };
+     data() {
+        return{
+            email: '',
+            password: '',
+        };
+   },
+   methods: {
+     onloggedIn (){
+        axios.post('https://psi-exam-api.praxxys.dev/api/auth/login',
+        {email: this.email, password: this.password},
+        )
+        .then((response) => {
+            this.$router.push('/folder/Homepage');
+            console.log(response);
+        })
      },
+   },
+
  }
  </script>
  
